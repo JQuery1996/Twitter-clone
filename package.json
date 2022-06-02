@@ -2,6 +2,7 @@
   "name": "twitter-application",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,16 +10,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.6.4",
+    "@heroicons/react": "^1.0.6",
+    "@types/emoji-mart": "^3.0.9",
+    "emoji-mart": "npm:panta82-emoji-mart",
+    "firebase": "^9.8.2",
+    "moment": "^2.29.3",
     "next": "12.1.6",
+    "next-auth": "^4.3.4",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-moment": "^1.1.2",
+    "recoil": "^0.7.3-alpha.2"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.5",
+    "autoprefixer": "^10.4.7",
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
     "typescript": "4.7.2"
   }
 }
